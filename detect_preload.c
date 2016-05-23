@@ -22,26 +22,13 @@
 
 // add your own libc symbols to check if you wish
 static const char *symbols[] = {
-    "rename", "renameat", "renameat2", "fread",
-    "stat", "stat64", "fstat", "fstat64",
-    "lstat", "lstat64", "__lxstat", "__lxstat64",
-    "__fxstat", "__fxstat64", "__xstat", "__xstat64",
-    "ptrace", "fwrite", "fwrite_unlocked", "fputs_unlocked",
-    "execve", "execvp", "link", "linkat",
-    "unlink", "unlinkat", "symlink", "symlinkat",
-    "mkdir", "mkdirat", "rmdir", "opendir",
-    "opendir64", "fdopendir", "readdir", "readdir64",
-    "chdir", "fchdir", "access", "open",
-    "open64", "fopen", "fopen64", "creat",
-    "mkstemp", "accept", "setgid", "setregid",
-    "setresgid", "getpwnam_r", "getpwnam", "getspnam",
-    "getpwuid", "kill", "chmod", "chown",
-    "fchmod", "fchown", "fchownat", "lchown",
-    "listxattr", "llistxattr", "flistxattr",
-    "getxattr", "lgetxattr", "fgetxattr", "setxattr",
-    "lsetxattr", "fsetxattr", "removexattr", "lremovexattr",
-    "fremovexattr", "getutent", "getutxent", "pututline",
-    "getpwent", "syslog", "__syslog_chk", "socket",
+    "rename", "renameat",
+    "stat", "stat64",
+    "fstat", "fstat64",
+    "lstat", "lstat64",
+    "__lxstat", "__lxstat64",
+    "__fxstat", "__fxstat64",
+    "__xstat", "__xstat64",
     NULL
 };
 
